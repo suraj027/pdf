@@ -9,8 +9,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@/App": "latest",
-    "@/Shell": "latest",
     "react-dom": "^18.2.0",
     "react": "^18.2.0",
     "pdfjs-dist": "5.2.133",
