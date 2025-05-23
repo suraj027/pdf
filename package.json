@@ -1,0 +1,26 @@
+{
+  "name": "opennotebook",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@/App": "latest",
+    "@/Shell": "latest",
+    "react-dom": "^18.2.0",
+    "react": "^18.2.0",
+    "pdfjs-dist": "5.2.133",
+    "@google/genai": "^0.14.0",
+    "markmap-lib": "^0.18.11",
+    "markmap-view": "^0.18.10"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "typescript": "~5.7.2",
+    "vite": "^6.2.0"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "OpenNotebook",
+  "description": "Upload a PDF to get a summary, chat with its content, and generate a podcast script. Powered by Gemini API.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}
