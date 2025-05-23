@@ -1011,7 +1011,7 @@ const App: React.FC<AppProps> = ({ initialNote, initialFile, onInitialFileProces
              {podcastScript?.startsWith("Error:") && <Alert message={podcastScript} type="error" />}
              {podcastScript?.startsWith("RATE_LIMIT_ERROR::") && podcastScriptRateLimitInfo && <Alert message={podcastScriptRateLimitInfo.message} type="error" />}
           </aside>
-        )}
+        
       </div>
     </div>
   );
